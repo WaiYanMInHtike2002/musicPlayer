@@ -1,0 +1,45 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+}
+.sub {
+  height: 30px;
+  width: 200px;
+  border-bottom: 2px solid blue;
+  margin-top: 10px;
+}
+.text {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.line {
+  background-color: white;
+  width: 300px;
+  height: 5px;
+}
+.lineProgress {
+  height: 5px;
+  width: px;
+  background-color: blue;
+}
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.buttonContainerSub {
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.play {
+  display: none;
+}
